@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style_formulario.css">
+    <script src="https://kit.fontawesome.com/4f0d8edb19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="encabezado">
+        <nav>
+            <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            <ul>
+                <li>
+                    <a href="../index.html"><i class="fa-solid fa-house">  Inicio</i></a>
+                </li>
+                <li>
+                    <a href="../acerca_de_mi.html"><i class="fa-solid fa-user"> Acerca de mi</i></a>
+                </li>
+                <li>
+                    <a href="../trabajos.html"><i class="fa-solid fa-briefcase">   Trabajos</i></a>
+                </li>
+                <li>
+                    <a href="../servicios.html"><i class="fa-brands fa-creative-commons-nd">  Servicios</i></a>
+                </li>
+                <li>
+                    <a href="formulario.html"><i class="fa-solid fa-address-book">  Contacto</i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="titulo_seccion">Contacto</h2>
+            <div class="form_contenedor">
+                <div class="container">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <label for="number">Numero:</label>
+                            <input type="number" id="number" name="number" required>
+                            <label for="email">E-Mail:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            Contacto
+        </h2>
+        <br>
+        <h3>
+            <ul>
+                <li>Telefono: 2613333333</li>
+                <li>Mail: ejemplo@gmail.com</li>
+                <li>Horarios: 8:00 a 18:00</li>
+                <li>Ubicacion: Godoy Cruz</li>
+            </ul>
+        </h3>
+    </footer>
+</body>
+</html>
